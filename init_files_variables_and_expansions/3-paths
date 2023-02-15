@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tree -a | wc -l
+$ echo $PATH | tr ':' '\n' | wc -l
